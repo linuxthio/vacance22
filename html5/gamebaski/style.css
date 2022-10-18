@@ -1,0 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main
+{
+    position: relative;
+    border: 5px dashed red;
+    text-align: center;
+    font-size: 72px;
+    color: aliceblue;
+}

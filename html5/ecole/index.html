@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="content">
+        <img class="logo" src="logo.png">
+        <div class='g'>
+            <h1>Ecoles au senegal</h1>
+            <p>En mathématiques, une suitenote 1 est une famille d'éléments — appelés ses « termes » — indexée par les en.
+ </p>
+        </div>
+        <div class='d'>
+            <img src="photo.png">
+        
+        </div>
+        
+        <button>Commencer</button>
+        <pre>
+            import flet
+            from flet import Page, Text,ElevatedButton
+            
+            def main(page: Page):
+                page.title="Table multi"
+                t = Text(value="Geeks for nurds", color="green",bgcolor='red',size=45,text_align='center')
+                t2 = Text(value="ok python", color="green",bgcolor='red',size=45,text_align='center')
+                btn=ElevatedButton(text="Say my name!",on_click=ck)
+                page.controls.append(t)
+                page.controls.append(btn)
+                page.controls.append(t2)
+            
+                n=2
+                for i in range(11):
+                    r=n*i
+                    s=f"{n} x {i} = {r}"
+                    ts = Text(value=s, color="green",bgcolor='red',size=25,text_align='center')
+            
+                    page.controls.append(ts)
+                page.update()
+            
+            def ck(page:Page,tx:Text):
+                tx.value=tx.value+'.'
+            
+            
+            flet.app(target=main)
+            
+        </pre>
+ </div>
+
+
+</body>
+</html>

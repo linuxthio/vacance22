@@ -1,0 +1,62 @@
+
+
+
+.logo
+{
+  width: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 100px;
+  
+}
+
+.g
+{
+   position: absolute;
+  top:150px;
+  width: 40%;
+  height:200px;
+  border:1px solid;
+}
+.d
+{
+   position: absolute;
+  top:150px;
+  right:20px;
+  height:200px;
+  width: 40%;
+  border:1px solid;
+  
+}
+
+.d img
+{
+ height: 100%;
+  width: 100%;
+}
+
+
+button
+{
+  position: absolute;
+  top: 370px;
+  font-size: 16px;
+  padding: 10px;
+  
+  
+  
+}
+
+pre
+{
+  position: absolute;
+  top: 450px;
+  border: 1px solid;
+  margin-bottom:30px;
+  padding: 20px;
+  font-size: 18px;
+  width: 90vw;
+  word-wrap: break-word;
+  border-radius: 12px;
+  background: bisque;
+}

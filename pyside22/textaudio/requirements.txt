@@ -1,0 +1,5 @@
+pip install google-tts
+
+import nltk
+from nltk import tokenize
+nltk.download('punkt')
